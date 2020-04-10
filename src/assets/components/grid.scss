@@ -1,0 +1,16 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  &-item {
+    padding: 10px;
+    &-title {
+      margin: 0;
+    }
+    &-desc {
+      display: flex;
+    }
+    &-desc:last-child {
+      display: inline-block;
+    }
+  }
+}

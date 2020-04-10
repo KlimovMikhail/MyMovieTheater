@@ -1,0 +1,18 @@
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid blue;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  &-about {
+    margin: 10px 0;
+    border: none;
+    background-color: #00ff03;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
