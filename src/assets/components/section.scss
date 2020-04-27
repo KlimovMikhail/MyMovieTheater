@@ -1,0 +1,65 @@
+.section {
+  margin-bottom: 40px;
+};
+
+.section-session {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-tickets {
+  position: fixed;
+  background: rgba(0, 0, 0, .3);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-modal {
+    position: relative;
+    width: auto;
+    height: auto;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top-right-radius: initial;
+  }
+  &-title {
+    text-align: center;
+    
+  }
+  &-hall {
+    width: 100px;
+    margin: 10px auto;
+  }
+  &-time {
+    margin-bottom: 20px;
+  }
+};
+
+.section-hall {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  &-place {
+    padding: 5px 20px;
+    margin: 5px;
+    background-color: #72e272;
+    border-radius: 5px;
+    cursor: pointer;
+    &-booked {
+      padding: 5px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      background-color: #f63e30;
+      cursor: default;
+    }
+  }
+  
+}
+
+.section-hall-row {
+  padding: 10px 0;
+  margin-right: 10px;
+}

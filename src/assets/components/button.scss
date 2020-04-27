@@ -1,0 +1,31 @@
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid blue;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  &-about {
+    margin: 10px 0;
+    border: none;
+    background-color: #26cee4;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.button-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+};
+
+.button-buy {
+  background-color: #26cee4; 
+  padding: 10px;
+  margin-top: 10px;
+}
