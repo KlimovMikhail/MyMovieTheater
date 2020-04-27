@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body {
   background-color: #0f1215;
   position: relative;
@@ -11,19 +12,25 @@ a, .link {
 	text-decoration: none;
 }
 
+=======
+>>>>>>> 80b14fd21ef1f4f90332aa72f87fe0fa6996225d
 p, ul, ol, figure {
   margin: 0;
 }
 
+<<<<<<< HEAD
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
+=======
+>>>>>>> 80b14fd21ef1f4f90332aa72f87fe0fa6996225d
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .logo {
   margin-left: 15px;
   font-family: fantasy;
@@ -72,4 +79,16 @@ input {
 
 .input {
   padding: 10px;
+=======
+img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+
+.footer {
+  height: 20px;
+>>>>>>> 80b14fd21ef1f4f90332aa72f87fe0fa6996225d
 }
