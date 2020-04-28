@@ -10,7 +10,6 @@
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD
     "react-input-autosize": "^2.2.2",
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
@@ -18,12 +17,6 @@
     "react-spinners": "^0.8.1",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
-=======
-    "react-redux": "^7.2.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.1",
-    "redux": "^4.0.5",
->>>>>>> 80b14fd21ef1f4f90332aa72f87fe0fa6996225d
     "redux-thunk": "^2.3.0"
   },
   "scripts": {

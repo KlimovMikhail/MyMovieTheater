@@ -1,13 +1,9 @@
 .card {
   display: flex;
   flex-wrap: wrap;
-<<<<<<< HEAD
   &-item {
     padding: 10px;
   }
-=======
-  padding: 10px;
->>>>>>> 80b14fd21ef1f4f90332aa72f87fe0fa6996225d
   &-title {
     padding: 0 10px;
     margin: 0 auto;
@@ -15,7 +11,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     color: chocolate;
   }
 }
@@ -55,7 +50,4 @@
   text-align: center;
   margin: 10px;
   color: #72e272;
-=======
-  }
->>>>>>> 80b14fd21ef1f4f90332aa72f87fe0fa6996225d
 }

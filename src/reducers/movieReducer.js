@@ -2,7 +2,6 @@ import * as constants from "../constants";
 
 const initialState = {
   movies: [],
-<<<<<<< HEAD
   genres: [],
   sessions: [],
   rooms: []
@@ -57,7 +56,6 @@ export const data = (state = initialState, action) => {
 
         return acc;
       }, []);
-      console.log("sortedSessionDate", sortedSessionDate)
       return {
         ...state,
         sessions: sortedSessionDate
@@ -73,32 +71,3 @@ export const data = (state = initialState, action) => {
     default: return state
   }
 };
-
-=======
-  isLoading: false,
-  error: null
-}
-
-export const rootReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case constants.LOADING:
-      return {
-        ...state,
-        isLoading: true
-      }
-    case constants.SET_MOVIE:
-      return {
-        ...state,
-        movies: Object.values(action.payload.movie),
-        isLoading: false 
-      }
-    case constants.SET_ERROR:
-      return {
-        ...state,
-        error: action.payload,
-        isLoading: false
-      }
-    default: return state
-  }
-};
->>>>>>> 80b14fd21ef1f4f90332aa72f87fe0fa6996225d

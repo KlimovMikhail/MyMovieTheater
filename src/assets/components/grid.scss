@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   &-item {
-<<<<<<< HEAD
     padding: 15px;
     &-title {
       text-align: center;
@@ -36,17 +35,4 @@
 .grid-item-sessions {
   display: flex;
   flex-wrap: wrap;
-=======
-    padding: 10px;
-    &-title {
-      margin: 0;
-    }
-    &-desc {
-      display: flex;
-    }
-    &-desc:last-child {
-      display: inline-block;
-    }
-  }
->>>>>>> 80b14fd21ef1f4f90332aa72f87fe0fa6996225d
 }
